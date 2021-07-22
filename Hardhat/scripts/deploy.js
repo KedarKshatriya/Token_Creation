@@ -6,18 +6,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  // Hardhat always runs the compile task when running scripts with its command
-  // line interface.
-  //
-  // If this script is run directly using `node` you may want to call compile
-  // manually to make sure everything is compiled
-  // await hre.run('compile');
-
-  // We get the contract to deploy
-  const MyToken = await hre.ethers.getContractFactory("MyToken");
-  const mytoken = await MyToken.deploy();
-
-  await mytoken.deployed();
+  // Deploy Script here
 
   console.log("MyToken deployed to:", mytoken.address);
   let link = "https://rinkeby.etherscan.io/address/"+mytoken.address
