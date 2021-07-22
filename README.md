@@ -91,7 +91,7 @@ To see if your contract has been deployed, check your account in etherscan.io.
 A new transaction should appear, and the transaction should deploy a new contract!
 
 <br>
-<p align="center"><img src="Hardhat/Images/1etherscan.png" width=400 height=200 ></p>
+<p align="center"><img src="Hardhat/Images/1etherscan.png" width=600 height=400 ></p>
 <br>
 
 ## Verify on Etherscan
@@ -111,38 +111,38 @@ Take the code, and clean it up, then verify it on etherscan.
 ## Steps to verify
 1. Go to *contract* section and click on **Verify and Publish**
 
-<p align="center"><img src="Hardhat/Images/2beforeVerify.png" width=400 height=200 ></p>
+<p align="center"><img src="Hardhat/Images/2beforeVerify.png" width=600 height=400 ></p>
 <br>
 
 2. Now here select the options provide in this example:
 
-<p align="center"><img src="Hardhat/Images/3detailsPage.png" width=400 height=200 ></p>
+<p align="center"><img src="Hardhat/Images/3detailsPage.png" width=600 height=400 ></p>
 <br>
 
 3. After clicking on continue, on the next page copy and paste the cleaned code from *flattenedNFTbase.sol*. Now click **Verify and Publish**. Your contract will be verified now.
 
-<p align="center"><img src="Hardhat/Images/4filledDetails.png" width=400 height=200 ></p>
+<p align="center"><img src="Hardhat/Images/4filledDetails.png" width=600 height=400 ></p>
 <br>
 
 4. Now, you can access two new tabs under the Contract section. Click connect to web3, a **Metamask** pop-up will be shown.
 > **Note:** As our contract is *Ownable* (means that the owner can only mint). Connect with that same account. you used for deployment.
 
-<p align="center"><img src="Hardhat/Images/5writeContractPage.png" width=400 height=200 ></p>
+<p align="center"><img src="Hardhat/Images/5writeContractPage.png" width=600 height=400 ></p>
 <br>
 
 5. Try out the different functions like the example given below wich mint's some of the *MTK tokens* to a address.
 
-<p align="center"><img src="Hardhat/Images/6mintToAddress.png" width=400 height=200 ></p>
+<p align="center"><img src="Hardhat/Images/6mintToAddress.png" width=600 height=400 ></p>
 <br>
 
 6. Here we can see the minting transaction on Etherscan.
 
-<p align="center"><img src="Hardhat/Images/7updatedContractPage.png" width=400 height=200 ></p>
+<p align="center"><img src="Hardhat/Images/7updatedContractPage.png" width=600 height=400 ></p>
 <br>
 
 7. These addresses are the token holders and also we can see the tokens **Max Total Supply**.
 
-<p align="center"><img src="Hardhat/Images/8holders.png" width=400 height=200 ></p>
+<p align="center"><img src="Hardhat/Images/8holders.png" width=600 height=400 ></p>
 <br>
 
 
